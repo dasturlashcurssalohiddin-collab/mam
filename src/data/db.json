@@ -1,0 +1,649 @@
+{
+  "menu": [
+    {
+      "id": "0.252548271630357",
+      "name": "burger",
+      "category": "taomlar",
+      "description": "m",
+      "price": 1,
+      "image": "https://i.imgur.com/UBgtlbF.jpg",
+      "stock": 30,
+      "rating": 4.8,
+      "voiceText": "burger. Narxi 1 so'm."
+    },
+    {
+      "id": "0.40413777791022676",
+      "name": "manti",
+      "category": "Taomlar",
+      "description": "Yaxshi",
+      "price": 10000,
+      "image": "https://www.tastesfromtheroad.com/post/manti-kazakhstan",
+      "stock": 5,
+      "rating": 5,
+      "voiceText": "yaxshi"
+    },
+    {
+      "id": "1",
+      "name": "Chiroyli To'y Oshi",
+      "category": "Taomlar",
+      "description": "Zafar qora-kesma guruchidan, go'shtli va bedana tuxumlari solingan maxsus milliy palov.",
+      "price": 45000,
+      "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=500&auto=format&fit=crop&q=60",
+      "stock": 15,
+      "rating": 4.9,
+      "voiceText": "Chiroyli To'y Oshi. Narxi qirq besh ming so'm. Maxsus milliy palovimiz, go'shtli va bedana tuxumlari solingan mazali taom."
+    },
+    {
+      "id": "2",
+      "name": "Tandir Somsa",
+      "category": "Taomlar",
+      "description": "Qarsildoq xamirdan tandirda pishirilgan go'shtli va dumba yog'li an'anaviy somsa.",
+      "price": 12000,
+      "image": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?w=500&auto=format&fit=crop&q=60",
+      "stock": 40,
+      "rating": 4.8,
+      "voiceText": "Tandir Somsa. Narxi o'n ikki ming so'm. Tandirda yopilgan, qarsildoq go'shtli milliy somsa."
+    },
+    {
+      "id": "3",
+      "name": "Limonli Ko'k Choy",
+      "category": "Ichimliklar",
+      "description": "Sariq limon bo'laklari va toza shakar bilan tayyorlangan xushbo'y ko'k choy.",
+      "price": 8000,
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&auto=format&fit=crop&q=60",
+      "stock": 50,
+      "rating": 4.7,
+      "voiceText": "Limonli ko'k choy. Narxi sakkiz ming so'm. Yangi limon bo'laklari bilan damlangan xushbo'y ko'k choy."
+    },
+    {
+      "id": "4",
+      "name": "Klassik Manti",
+      "category": "Taomlar",
+      "description": "Yupqa xamir ichida maydalangan yangi mol go'shti va piyoz bilan bug'da pishirilgan lazzatli manti.",
+      "price": 7000,
+      "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=500&auto=format&fit=crop&q=60",
+      "stock": 30,
+      "rating": 4.9,
+      "voiceText": "Klassik Manti. Narxi har biri yetti ming so'm. Bug'da pishirilgan, sershira mol go'shtli manti."
+    },
+    {
+      "id": "5",
+      "name": "Coca-Cola 0.5L",
+      "category": "Ichimliklar",
+      "description": "Muzdek salqin va tetiklashtiruvchi klassik gazli ichimlik.",
+      "price": 9000,
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500&auto=format&fit=crop&q=60",
+      "stock": 100,
+      "rating": 4.6,
+      "voiceText": "Koka kola yarim litr. Narxi to'qqiz ming so'm. Muzdek va tetiklashtiruvchi gazli ichimlik."
+    }
+  ],
+  "booklet": {
+    "active": true,
+    "title": "Oshxonamiz Yo'riqnomasi",
+    "pages": [
+      "Xush kelibsiz! Ushbu raqamli menyu orqali sevimli taomlaringiz bilan tanishing. Har bir yoshu qari uchun tushunarli va qulay qilib ishlangan.",
+      "Kategoriyalarni tanlash va qidiruv tizimidan foydalanishingiz mumkin. Har bir taom kartasini bossangiz, u haqidagi tafsilotlarni ovozli eshitishingiz mumkin!",
+      "Buyurtma berish uchun stolingizdagi afitsiantga taomlarni ayting. Afitsiant buyurtmalarni o'zi kiritadi va taom oshpaz tomonidan tayyorlanadi. Yoqimli ishtaha!"
+    ]
+  },
+  "config": {
+    "theme": "dark",
+    "backgroundType": "image",
+    "backgroundValue": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600",
+    "foregroundColor": "#ffffff",
+    "logoUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=200&auto=format&fit=crop&q=60",
+    "logoWidth": 100,
+    "effectsEnabled": false,
+    "activeLang": "uz",
+    "staffPassword": "1234",
+    "adminPassword": "9999",
+    "lastUpdated": 1783927242046
+  },
+  "languages": [
+    "uz",
+    "uz_cyr",
+    "ru",
+    "en",
+    "de",
+    "fr",
+    "it"
+  ],
+  "translations": {
+    "uz": {
+      "welcome": "Xush kelibsiz!",
+      "menu": "Menyu",
+      "categories": "Kategoriyalar",
+      "search": "Taom yoki toifa nomini yozing (masalan: ichimliklar)",
+      "settings": "Sozlamalar",
+      "staffPanel": "Oshpaz & Afitsiant",
+      "adminPanel": "Admin Panel",
+      "darkLight": "Tun/Kun",
+      "details": "Taom Haqida Ma'lumot",
+      "stock": "Mavjud",
+      "price": "Narxi",
+      "listen": "Ta'rifni Ovozli Eshitish 🔊",
+      "exchange": "🖊️ O'zgartirish",
+      "add": "Yangi Taom Qo'shish",
+      "delete": "O'chirish",
+      "save": "Saqlash",
+      "stats": "Statistika va Tahlil",
+      "logs": "Harakatlar jurnali",
+      "visitorStats": "Tashrif buyuruvchilar",
+      "adSpace": "Reklama Banneri",
+      "password": "Parol",
+      "enter": "Kirish",
+      "backToMenu": "Menyuga qaytish",
+      "close": "Yopish"
+    },
+    "ru": {
+      "welcome": "Добро пожаловать!",
+      "menu": "Меню",
+      "categories": "Категории",
+      "search": "Введите блюдо или категорию (например: напитки)",
+      "settings": "Настройки",
+      "staffPanel": "Повар и Официант",
+      "adminPanel": "Панель Администратора",
+      "darkLight": "Ночь/День",
+      "details": "Информация о блюде",
+      "stock": "В наличии",
+      "price": "Цена",
+      "listen": "Прослушать аудио 🔊",
+      "exchange": "🖊️ Изменить",
+      "add": "Добавить блюдо",
+      "delete": "Удалить",
+      "save": "Сохранить",
+      "stats": "Статистика и Анализ",
+      "logs": "Журнал действий",
+      "visitorStats": "Посетители",
+      "adSpace": "Рекламный баннер",
+      "password": "Пароль",
+      "enter": "Войти",
+      "backToMenu": "Назад в меню",
+      "close": "Закрыть"
+    },
+    "en": {
+      "welcome": "Welcome!",
+      "menu": "Menu",
+      "categories": "Categories",
+      "search": "Type dish or category name (e.g. drinks)",
+      "settings": "Settings",
+      "staffPanel": "Chef & Waiter Panel",
+      "adminPanel": "Admin Control Panel",
+      "darkLight": "Night/Day",
+      "details": "Dish Details",
+      "stock": "Stock Available",
+      "price": "Price",
+      "listen": "Listen to Description 🔊",
+      "exchange": "🖊️ Exchange",
+      "add": "Add New Dish",
+      "delete": "Delete",
+      "save": "Save Changes",
+      "stats": "Analytics & Statistics",
+      "logs": "Action Logs",
+      "visitorStats": "Visitors Summary",
+      "adSpace": "Ad Banner",
+      "password": "Password",
+      "enter": "Enter",
+      "backToMenu": "Back to Menu",
+      "close": "Close"
+    },
+    "uz_cyr": {
+      "welcome": "Хуш келибсиз!",
+      "menu": "Меню",
+      "categories": "Категориялар",
+      "search": "Таом ёки тоифа номини ёзинг (масалан: ичимликлар)",
+      "settings": "Созламалар",
+      "staffPanel": "Ошпаz & Афициант",
+      "adminPanel": "Админ Панел",
+      "darkLight": "Тун/Кун",
+      "details": "Таом Ҳақида Маълумот",
+      "stock": "Мавжуд",
+      "price": "Нархи",
+      "listen": "Таърифни Овозли Эшитиш 🔊",
+      "exchange": "🖊️ Ўзгартириш",
+      "add": "Янги Таом Қўшиш",
+      "delete": "Ўчириш",
+      "save": "Сақлаш",
+      "stats": "Статистика ва Таҳлил",
+      "logs": "Ҳаракатлар журнали",
+      "visitorStats": "Ташриф буюрувчилар",
+      "adSpace": "Реклама Баннери",
+      "password": "Парол",
+      "enter": "Кириш",
+      "backToMenu": "Менюга қайтиш",
+      "close": "Ёпиш"
+    },
+    "fr": {
+      "welcome": "Bienvenue !",
+      "menu": "Menu",
+      "categories": "Catégories",
+      "search": "Saisissez le nom du plat ou de la catégorie (ex: boissons)",
+      "settings": "Paramètres",
+      "staffPanel": "Cuisine & Serveur",
+      "adminPanel": "Panneau d'administration",
+      "darkLight": "Nuit/Jour",
+      "details": "Détails du plat",
+      "stock": "En stock",
+      "price": "Prix",
+      "listen": "Écouter la description 🔊",
+      "exchange": "🖊️ Modifier",
+      "add": "Ajouter un nouveau plat",
+      "delete": "Supprimer",
+      "save": "Enregistrer",
+      "stats": "Statistiques & Analyse",
+      "logs": "Journal d'actions",
+      "visitorStats": "Visiteurs",
+      "adSpace": "Bannière publicitaire",
+      "password": "Mot de passe",
+      "enter": "Entrer",
+      "backToMenu": "Retour au menu",
+      "close": "Fermer"
+    },
+    "it": {
+      "welcome": "Benvenuto!",
+      "menu": "Menu",
+      "categories": "Categorie",
+      "search": "Digita il nome del piatto o della categoria (es: bevande)",
+      "settings": "Impostazioni",
+      "staffPanel": "Cucina & Cameriere",
+      "adminPanel": "Pannello di controllo",
+      "darkLight": "Notte/Giorno",
+      "details": "Dettagli del piatto",
+      "stock": "Disponibile",
+      "price": "Prezzo",
+      "listen": "Ascolta la descrizione 🔊",
+      "exchange": "🖊️ Modifica",
+      "add": "Aggiungi nuovo piatto",
+      "delete": "Elimina",
+      "save": "Salva",
+      "stats": "Statistiche & Analisi",
+      "logs": "Registro attività",
+      "visitorStats": "Visitatori",
+      "adSpace": "Banner pubblicitario",
+      "password": "Password",
+      "enter": "Accedi",
+      "backToMenu": "Torna al menu",
+      "close": "Chiudi"
+    },
+    "de": {
+      "welcome": "Willkommen!",
+      "menu": "Menü",
+      "categories": "Kategorien",
+      "search": "Geben Sie den Namen des Gerichts oder der Kategorie ein (z. B. Getränke)",
+      "settings": "Einstellungen",
+      "staffPanel": "Küche & Kellner",
+      "adminPanel": "Admin-Bereich",
+      "darkLight": "Nacht/Tag",
+      "details": "Details zum Gericht",
+      "stock": "Auf Lager",
+      "price": "Preis",
+      "listen": "Beschreibung anhören 🔊",
+      "exchange": "🖊️ Bearbeiten",
+      "add": "Neues Gericht hinzufügen",
+      "delete": "Löschen",
+      "save": "Speichern",
+      "stats": "Statistiken & Analyse",
+      "logs": "Aktivitätsprotokoll",
+      "visitorStats": "Besucher",
+      "adSpace": "Werbebanner",
+      "password": "Passwort",
+      "enter": "Eintreten",
+      "backToMenu": "Zurück zum Menü",
+      "close": "Schließen"
+    }
+  },
+  "stats": {
+    "totalVisits": 382,
+    "activeUsers": 46,
+    "hourlyVisits": [
+      15,
+      24,
+      18,
+      22,
+      35,
+      48,
+      52,
+      45,
+      38,
+      30,
+      25,
+      55
+    ],
+    "dailyVisits": [
+      220,
+      250,
+      180,
+      310,
+      290,
+      340,
+      348
+    ],
+    "monthlyVisits": [
+      1200,
+      1500,
+      1800,
+      2200,
+      2400,
+      3100
+    ],
+    "yearlyVisits": [
+      15000,
+      24000,
+      38000
+    ],
+    "ordersLog": [
+      {
+        "id": "0.9333472678754087",
+        "time": "17:04",
+        "action": "taomlar: burger zaxirasi to'ldirildi (Mavjud: 30 ta)"
+      },
+      {
+        "id": "1",
+        "time": "14:01",
+        "action": "Taomlar: Tandir Somsa zaxirasi 40 dan 39 ga kamaytirildi (Afitsiant stol #5 buyurtmasi)"
+      },
+      {
+        "id": "2",
+        "time": "13:45",
+        "action": "Ichimliklar: Limonli Ko'k Choy zaxirasi 49 dan 50 ga ko'paytirildi (Oshpaz tayyorladi)"
+      }
+    ],
+    "visitsLog": [
+      {
+        "time": "07:18",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "07:18",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "20:16",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "20:16",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "20:12",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "20:12",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "20:09",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "20:09",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "19:06",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "19:06",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:52",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:52",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:38",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:38",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:38",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:38",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:17",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "18:17",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "15:10",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "15:10",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "15:07",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "15:07",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "15:03",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "15:03",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "14:42",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "14:42",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "00:01",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "00:01",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "00:01",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "00:01",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "23:15",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "23:15",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "21:11",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "21:11",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "14:02",
+        "type": "Kirish",
+        "user": "Mehmon (Mobil)"
+      },
+      {
+        "time": "13:58",
+        "type": "Kirish",
+        "user": "Mehmon (Stol #4)"
+      }
+    ]
+  },
+  "ads": [
+    {
+      "id": "ad-top-discount",
+      "active": true,
+      "position": "top",
+      "type": "image",
+      "title": "🎉 YANADA YA_QINROQ! EVOS DAN 20% CHEGIRMA!",
+      "contentUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&auto=format&fit=crop&q=80",
+      "linkUrl": "#menu"
+    },
+    {
+      "id": "ad-slider-pizza",
+      "active": true,
+      "position": "sidebar",
+      "type": "image",
+      "title": "🍕 MAZALI PITSA - HOZIROQ BUYURTMA BERING!",
+      "contentUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1000&auto=format&fit=crop&q=80",
+      "linkUrl": "#menu"
+    },
+    {
+      "id": "ad-slider-lavash",
+      "active": true,
+      "position": "sidebar",
+      "type": "image",
+      "title": "🌯 ISSIQ VA SER-SUT LAVASH EXTRA LAZZAT!",
+      "contentUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1000&auto=format&fit=crop&q=80",
+      "linkUrl": "#menu"
+    },
+    {
+      "id": "ad-bottom-delivery",
+      "active": true,
+      "position": "bottom",
+      "type": "image",
+      "title": "🚚 TEZKOR VA BEPUL YETKAZIB BERISH!",
+      "contentUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1200&auto=format&fit=crop&q=80",
+      "linkUrl": "#about"
+    },
+    {
+      "id": "ad-popup-burger",
+      "active": true,
+      "position": "popup",
+      "type": "image",
+      "title": "🍔 BUGUNGI MAXSUS: EVOS KING BURGER CHEGIRMADA!",
+      "contentUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=80",
+      "linkUrl": "#menu"
+    }
+  ],
+  "footer": {
+    "restaurantName": "Evos mazali ovqatlar",
+    "restaurantDesc": "mazali ovqatlar menyusi",
+    "logoUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNvyMY98AAAlKSURBVGhD1Vlbb1TXFbZn5tzGY3vs8dw897s9Hns8njGhkBByAeK89qlS/0Meqqqq+qNQhMRTqSJVoqVJlHIV0ACGlBJ4SttHqFa/b/ns4Xjw4GCCHLa0tM/Ze58z+/vWWt/ax57Yr3lWSFIxS6oJT7qLMTlemdWe9xzHkv3sjTbP8yTkxcRKZMUpNIfGe875yw7eRsGfaSV2kYAl+9kbbQQZJMGYGfeXHbwFwe9FwP/+8oeXmv+aN9bC0Rmx59NizcGm55QIGsfCU7Ov//ujnjfgfy4EvPE2SoABb673Ah00/zVvbwumQBC8IWQv0EHzX/P2tqAIBskIEvDduc9eMDPuv+btbQRtSNirHBpP/3Dht3uS4L/m59uqC650c1PCXgH69wqQ43t4n70ZC86PruH9uAgy9/42Dq8R5NFSfEiCAR8UvWCv11jDe2Nm3lwHnx0FPTrvb+Pw2q4NEdgIAbvmsWFzPW5+9H50bHTe38bhNXp/uCEffLD/ZTep88xns2n2QQsC4vvMddD7wTXBeX8bh9dGQQfJ0JTARp89eya/ak0MSeA1xzgXBGSe15TyAe6VAmaO+uBv4/CayftxBHCjBPu77g4B//njZ3rNsSBAAy7oaQPSrNlr3mv1h+Zv6bVb8J3hmXmJzKWGH0vs7XRJrIWcju/UeQINCKABzzmCpv37i9/v6v/7p99obwAGQQbB70cAN2HsdYkwzxOcsSB4zo2SoAQMN+qTMA48LVjvzdjweR+oAc9P6dHP6WB66Bp/07QgET6mH934jAEdfGcQvDFDghIw2txMUZxMSZxsSey5pDx58mSX+cvGthMri1wjIcuWML7KaCHblYnJSZmMWGInc8LfCM/Oy5UrV+Thw4c7X3O0hey+7z+zUZEPexU5hd7J1WRrsyOfbNaHzvCXHbxNFeri5aripQsgofLKBPRqCLnZBd1MMHImLUeJmSovg4AS7m158OCBbN+9i8/WGXFLLRCg5L20xaor4uRrko67EplJyK9P9uVUr/zTEWDDC/S8u1iR8HT8lQnYbGYU6CgBHJsMhSUKoNP1VSXg+zt3NAI45xZb4lXa+77fSefh+apEQSSNEXCqV/wJCYgviJvKiZPIqKdelYAzg5qEHU/BG+PG+IeLicmQhn+s2oY6z8l3N2/KjcuXJQKiSYyb3D8Cjizl5fRGWT5aR5rOZzQCNurpgxNgA+hkxBY7noQ4wAtgdXFxJ49pR48dl3qjIdlsVvqDAUJ1SaxkXiKzCYCKiQXCPESLm2+IhZLzbntRGunJXQTQqAMhpIFbbIqdKkgEv2fB1gqT4kKU7HRRCZ9CiDMV+A7a6c0G0mZJXMx/vF6UaL2rZPUbWXGxVxtrPf3thEwhiubm5tS43oVGKMiXtc7qmoS8KWzQESeVV5EKISdt21YiMgCeTqelXC4rCdw4/9QUcqOyvr4OMnJCErkpB0TUcvMSxtz29vYQ/Lc3buhYtNZRDYgi1EnCFHoLvY2NRqsdiS4NxAHBbqEhNkhZrWblvU5evn+8Lf/49qZ82C0KU+zTIw0ZNLMyvYz10CknVxcL1cPJ1yUKgj+GJhxv53S9D3N86/f7srrW1Q26lRU1EkDwBL22tqYELC0tS6vVUuAkoFaryXqvB8/XASYvbraMTSSlW8vIFjbI9/35wgX5+6VLQwI8AHUpsNikhQiyQJwH0SUBLE+x1gaIWBl68fhKQTy8N1puq/B58LCKIEjyQJhbX9upWJmyCqJbxDjWe1yPKhbFeh/m+FYqlaRYLMrKyoqEY3ENbVomk5EGQp8E1Ot1BVwq4YdAzkZ/INVqFfNN3QAFzFkEMHg0WluVSmZWTq6V5Pznnw9J0Ahg/cW7mUY2CUP6xJrr6nEXzzsgn6Xt3LlzIKMn58+fx55mZDIc0XRkGdWepRVlNOS44uH3+R4bEUDT+XBYy24IWkSML20M483NTYArSaVSUe/T6AESQ+Dt9oo04f0aiFhaXlZiCoWCEqO5yyhA9XDIPjzjQOhahYSWJ5Kg3mdokyiuRz9FEpC/NoBbGPNAHD33PohbxrN/u/RX6VZTcvnrr+UyhPJf9+/LDUTSrVu35O61a3Lv3j25evWq/BNllGOsJtu3b8tt2OPHj+Uazhg3IbI+zPGNIOlF5jaJ6Ha7mvcE10OIr/Ee0UDLIi3o+Q2kTbvdVkLoPYoZgVEceR+FJwl6cWFatgZVnwDkPkkAWQxheo2a4yJq6HUScXS5IOXUrOSScZmNuZpWEaxjfkeQLnyGEcGqcfWbb+S+X0bvoCdoAiYprFYWnGCjmvkwxzdrPqUCSCFjyBAgwTL0ec28pzWbTVmG9ymaA1SDCBTfRtmi+JE8CqBDzyJHbQgTQdP7JOHEWlnB8ghKvdCzOCMGAupUIIyNdRW1EsAXkrMyP+PtpAnmPx2UoSl1OdnJyXod+tKv4LicVHAXL16U2wDN8ncNUXEd9gVSTklDqvVqyf0JIMhxxvLX7nQ0NTroc7ncC2t4auRGKWgkw6Yo8Z8SIID5TxI6lZR8AEV2qPgEDdVm2aVnPZS4QasgK6UkPD8rcXieqcSI4Lve6xRw9K3KZiuHCMmhzOZks5FRkPzS40GIxvMAe0ZKBE5lJfioWzgYARhW43UBKULvUwtYGUbXMnwd5K6e5RkJSAGCp/ARPPtIdFryiIRfAADTg2LFSsBvgJPrVVktJSCccZmO2holsWZPxdFCtMzPz0seepNIJCSXz2t/AcQeAxGMQgM8SMBWv6xrZmZw+PoRbQjYWODUt8ssKO/oWJQ5z1MchQxhyxQwBNAePXqkBLgQvDJAftAtyfvdivTrKf2IKafjODssqOdJSrTRVUHUkoy0YgQY2xpU5Gi7IO+0snIMZB7HoatXTconKLtMjzO9kmw0FiGkRV3DtMIe920vgHoV42Emgo8fLYMgYgq1med81n4q9Y2vvnp+DgAgnupYz/nZ6+AEl0/FZS4GDSKBEEgaoyq21Mf5oC6JhQU9j9DzrDzJZFK9e3pQ10MWCdhspPWU+G6niPKLwxKOy1zjRaPc457t6dOnZ59OTJydkNdsPAmSABp1gCXQEHDlyy/lzvXrzwlAtFAowzi0UAxV/VkKYTwH8EjMMVYLTSkIGc/8JgJO4xP4BMTwSPP52X+cvdNaRJqM1wAFPzFx9v9BEy8+yW5uBwAAAABJRU5ErkJggg==",
+    "phone": "+998 95 100 01 30",
+    "email": "@evos_uz",
+    "address": "main office address, Tashkent 123, Uzbekistan",
+    "links": [
+      {
+        "id": "1",
+        "name": "Menyu",
+        "url": "#menu"
+      },
+      {
+        "id": "1783698920341",
+        "name": "Biz haqimizda",
+        "url": "#🏠 Restaran/Cafe haqida"
+      }
+    ],
+    "socials": [
+      {
+        "id": "1",
+        "platform": "instagram",
+        "url": "https://instagram.com/evos_uz"
+      },
+      {
+        "id": "2",
+        "platform": "facebook",
+        "url": "https://facebook.com/evos"
+      },
+      {
+        "id": "3",
+        "platform": "telegram",
+        "url": "https://t.me/evos_uz"
+      },
+      {
+        "id": "4",
+        "platform": "youtube",
+        "url": "https://youtube.com/evos"
+      }
+    ],
+    "apps": [
+      {
+        "id": "1",
+        "platform": "appstore",
+        "url": "https://apps.apple.com/uz/app/evos"
+      },
+      {
+        "id": "2",
+        "platform": "googleplay",
+        "url": "https://play.google.com/store/apps/details?id=uz.evos"
+      }
+    ],
+    "copyrightText": "© 2026 EVOS. ",
+    "bgType": "color",
+    "bgValue": "linear-gradient(to right, #451a03, #1e1b4b)"
+  },
+  "sectionBackgrounds": {
+    "hero": {
+      "bgType": "video",
+      "bgValue": "https://assets.mixkit.co/videos/preview/mixkit-slow-motion-of-falling-vegetables-and-fruits-in-water-39875-large.mp4"
+    },
+    "menu": {
+      "bgType": "color",
+      "bgValue": "transparent"
+    }
+  }
+}

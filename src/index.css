@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Scrollbar hiding */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Google Translate Widget Overlap & Layout Fixes */
+
+/* Hide Google Translate top banner frame completely */
+.goog-te-banner-frame, 
+.goog-te-banner,
+iframe.goog-te-banner-frame,
+#goog-gt-tt {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  opacity: 0 !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+/* Ensure Google Translate tooltips or popups are lower z-index than search elements if they overlap, or hide translation banners */
+.goog-tooltip, .goog-tooltip:hover {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Fix the google translate dropdown styling inside our inline menu container */
+#google_translate_element {
+  position: relative;
+  z-index: 10 !important;
+}
+
+#google_translate_element select {
+  width: 100% !important;
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  background-color: #f4f4f5 !important; /* light gray bg */
+  color: #18181b !important; /* dark text */
+  border: 1px solid #e4e4e7 !important;
+  outline: none !important;
+  cursor: pointer !important;
+}
+
+.dark #google_translate_element select {
+  background-color: #27272a !important; /* zinc-800 dark bg */
+  color: #f4f4f5 !important; /* light text */
+  border: 1px solid #3f3f46 !important;
+}
+
+/* Prevent any google elements like "skiptranslate" from floating on top of search bar */
+.skiptranslate {
+  z-index: 10 !important; /* Keep it below header sticky row if it floats, or restrict height */
+}
+
+/* Make sure header and search bar has clear layout structure */
+header {
+  z-index: 40 !important;
+}
+

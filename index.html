@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazzat CRM - Raqamli Aqlli Menyu</title>
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'uz',
+          includedLanguages: 'uz,ru,en,de,it,fr',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+      /* Hide Google Translate top banner if shown */
+      .goog-te-banner-frame.skiptranslate,
+      iframe.goog-te-banner-frame {
+        display: none !important;
+      }
+      body {
+        top: 0px !important;
+      }
+      
+      /* Google Translate modern styling to match Lazzat design */
+      #google_translate_element {
+        display: inline-block;
+      }
+      .goog-te-gadget-simple {
+        background-color: #f4f4f5 !important; /* bg-zinc-100 */
+        border: 1px solid #e4e4e7 !important; /* border-zinc-200 */
+        padding: 6px 12px !important;
+        border-radius: 9999px !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        font-family: ui-sans-serif, system-ui, sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        color: #27272a !important; /* text-zinc-800 */
+        cursor: pointer !important;
+        transition: all 0.2s ease !important;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+      }
+      .dark .goog-te-gadget-simple {
+        background-color: #27272a !important; /* bg-zinc-800 */
+        border: 1px solid #3f3f46 !important; /* border-zinc-700 */
+        color: #f4f4f5 !important; /* text-zinc-100 */
+      }
+      .goog-te-gadget-simple:hover {
+        background-color: #e4e4e7 !important; /* bg-zinc-200 */
+      }
+      .dark .goog-te-gadget-simple:hover {
+        background-color: #3f3f46 !important; /* hover:bg-zinc-700 */
+      }
+      /* Hide the Google icon/logo inside simple element */
+      .goog-te-gadget-icon {
+        display: none !important;
+      }
+      /* Style the text inside simple element */
+      .goog-te-gadget-simple span {
+        color: inherit !important;
+        font-size: 12px !important;
+      }
+      /* Hide the Google branding text inside the widget */
+      .goog-te-gadget-simple span[style*="color: rgb(118, 118, 118)"],
+      .goog-te-gadget-simple span[style*="color: #767676"],
+      .goog-te-gadget-simple span[style*="color: rgb(102, 102, 102)"] {
+        display: none !important;
+      }
+      /* Divider and arrow styling */
+      .goog-te-gadget-simple .goog-te-menu-value span:last-child {
+        border-left: 1px solid #d4d4d8 !important;
+        margin-left: 6px !important;
+        padding-left: 6px !important;
+        color: #a1a1aa !important;
+      }
+      .dark .goog-te-gadget-simple .goog-te-menu-value span:last-child {
+        border-left: 1px solid #52525b !important;
+        color: #71717a !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
